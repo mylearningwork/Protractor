@@ -5,7 +5,7 @@ var HtmlReporter = require('protractor-beautiful-reporter');
 exports.config = {
 	framework : 'jasmine',
 	seleniumAddress : 'http://localhost:4444/wd/hub',
-	specs : [ 'spec.js' ],
+	specs : [ 'login.js' ],
 	/*multiCapabilities : [ {
 		browserName : 'firefox'
 	}, {
@@ -20,3 +20,4 @@ exports.config = {
 	      }).getJasmine2Reporter());
 	   }
 }
+

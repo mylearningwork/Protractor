@@ -7,7 +7,7 @@ describe('get list of elements', function(){
   var result = element(by.className('ng-binding'));
   var history = element.all(by.repeater('result in memory'));
 
-  beforeEach(function(){
+  beforeEach('alok',function(){
     browser.get('http://juliemr.github.io/protractor-demo/');
   });
 
